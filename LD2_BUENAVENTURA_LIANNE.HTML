@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lianne's Cafe</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D2B48C;
+            color: #2D0C05;
+        }
+
+        header {
+            background-color: #2D0C05;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 10px;
+            text-align: center; 
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #2D0C05;
+            margin: 0 10px; 
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+      .menu-item {
+          display: flex;
+          margin-bottom: 15px;
+          border-bottom: 1px dashed #ccc;
+          padding-bottom: 10px;
+        }
+      .menu-item img {
+          max-width: 150Spx;
+          margin-right: 15px;
+        }
+      .menu-item-details {
+          flex-grow: 1;
+        }
+
+        footer {
+            background-color: #2D0C05;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed; 
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav a {
+                display: block; 
+                margin: 10px 0; 
+                text-align: center; 
+            }
+          .menu-item {
+              flex-direction: column; 
+            }
+           .menu-item img {
+              margin-right: 0;
+              margin-bottom: 10px;
+              max-width: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <h1>Lianne's Cafe</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+
+    <section>
+        <h2>Today's Available: </h2>
+
+        <div class="menu-item">
+          <img src="C:\buenaventura\images.jpg" alt="Coffee"> <div class="menu-item-details"><h3>Classic Coffee</h3><p>A rich and aromatic blend.</p><p class="price">₱ 100</p></div>
+        </div>
+        <div class="menu-item">
+          <img src="C:\buenaventura\images (2).jpg"alt="Latte"> <div class="menu-item-details"><h3>Latte</h3><p>Espresso with steamed milk.</p><p class="price">₱ 150 </p></div>
+        </div>
+        <div class="menu-item">
+          <img src="C:\buenaventura\download.jpg"alt="Croissant"> <div class="menu-item-details"><h3>Croissant</h3><p>Flaky and buttery pastry.</p><p class="price">₱ 130</p></div>
+        </div>
+        </section>
+
+
+    <section>
+        <h2>About Us</h2>
+        <p>At Lianne's Cafe, we believe in the power of a good cup of coffee and a cozy atmosphere to bring people together.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Lianne's Cafe. All rights reserved.
+    </footer>
+
+</body>
+</html>00
+u
